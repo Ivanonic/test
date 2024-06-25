@@ -1,0 +1,11 @@
+/* ? import settings*/
+@import url(./bootstrap-grid.min.css);
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@import url(./style_files/header.css);
+
+@import url(./style_files/navBar.css);
