@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    max-width: 100%;
+    background-image: url(../../images/main_bg_img_heder.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin: 0 auto;
+}
+h1 {
+    width: 550px;
+    height: 60px;
+    filter: drop-shadow(2px 3.464px 3.5px rgba(155,182,190,0.75));
+    color: #1b7fd0;
+    background-color: #caddea;
+    margin: 0 0 30px 0;
+    padding: 12px;
+    text-align: center;
+}
+h3 {
+    width: 532px;
+    height: 22px;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Roboto";
+    margin: 0px 0px 10px 0;
+    position: relative;
+    left: 39px;
+}
+ul {
+    width: 620px;
+    /* height: 158px; */
+    font-size: 18px;
+    color: #000000;
+    font-family: "Arial Narrow";
+    margin: 0px 0px 30px 0px;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.images-logo {
+    margin: 30px 0 30px 0;
+
+}
+.btn-center .row div {
+    /* opacity: 0.000; */
+    width: 230px;
+    height: 35px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #0983e5;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+
+}
