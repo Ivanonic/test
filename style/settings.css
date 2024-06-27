@@ -26,15 +26,15 @@ body {
     --color_btn_text_hover: #1b7fd0;
 }
 @font-face {
-    font-family: Roboto_Bold;
+    font-family: Roboto-Bold;
     src: url(../fonts/Roboto-Bold.ttf);
 }
 @font-face {
-    font-family: Roboto_Medium;
+    font-family: Roboto-Medium;
     src: url(../fonts/Roboto-Medium.ttf);
 }
 @font-face {
-    font-family: Roboto_Regular;
+    font-family: Roboto-Regular;
     src: url(../fonts/Roboto-Regular.ttf);
 }
 
@@ -47,7 +47,7 @@ h1 {
 
 }
 h2 {
-    font-family: Roboto_Bold;
+    font-family: Roboto-Bold;
     font-size: 28px;
     color: var(--color_h2);
     font-weight: bold;
@@ -55,14 +55,14 @@ h2 {
 
 }
 h3 {
-    font-family: Roboto_Medium;
+    font-family: Roboto-Medium;
     font-size: 22px;
     color: var(--color_h3);
     text-transform: uppercase;
 
 }
 h4 {
-    font-family: Roboto_Medium;
+    font-family: Roboto-Medium;
     font-size: 18px;
     color: var(--color_h4);
     text-transform: uppercase;
