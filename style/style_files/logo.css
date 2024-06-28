@@ -1,6 +1,6 @@
-/* * {
+ /* {
     box-sizing: border-box;
-} */
+} 
 body {
     max-width: 100%;
     background-image: url(../../images/main_bg_img_heder.png);
@@ -33,7 +33,7 @@ h3 {
 }
 ul {
     width: 620px;
-    /* height: 158px; */
+    height: 158px;
     font-size: 18px;
     color: #000000;
     font-family: "Arial Narrow";
@@ -51,7 +51,7 @@ a {
 
 }
 .btn-center .row div {
-    /* opacity: 0.000; */
+    opacity: 0.000;
     width: 230px;
     height: 35px;
     background-color: rgba(0,0,0,0);
@@ -60,4 +60,4 @@ a {
     padding: 5px;
     text-align: center;
 
-}
+} */
