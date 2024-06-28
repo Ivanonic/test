@@ -1,0 +1,39 @@
+main .container-fluid {
+    height: 291px;
+    background-color: var(--color_btn_read_more);
+    padding-top: 25px;
+}
+.block_main_h2 {
+    display: inline;
+    text-align: center;
+    width: 1200px;
+    height: 45px;
+    filter: drop-shadow(2px 3.464px 3.5px rgba(155,182,190,0.75));
+    background-color: var(--color_btn_send_message_hover);
+}
+h2 span.sp1-h2 {
+    display: block;
+    float: left;
+}
+h2 span.sp2-h2 {
+    display: block;
+    float: right;
+}
+h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    color: var(--color_h2);
+    font-weight: 700;
+    font-family: "Roboto-Bold";
+    text-align: left;
+    margin: 0px 0px 20px 0px;
+    padding: 5px;
+}
+.main-h2-h2 {
+    display: flex;
+}
+.main_box_btn {
+    display: flex;
+    align-items: center;
+
+}

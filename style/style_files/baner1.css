@@ -27,9 +27,9 @@
     content: '';
     display: inline-block;
     width: 0;
-      height: 0;
-      border-top: 35px solid var(--color_btn_send_message_hover); 
-      border-right: 35px solid transparent;			
+    height: 0;
+    border-top: 35px solid var(--color_btn_send_message_hover); 
+    border-right: 35px solid transparent;			
     position: relative;
     top: 65px;
     right: 282.5px;
