@@ -2,8 +2,8 @@
   box-sizing: border-box;
  }
 
-main .container-fluid {
-  background: url(../../images/Bg2.svg);
+main .baner_2 {
+    background: url(../../images/Bg1-1.svg);
     height: 291px;
     background-color: var(--color_btn_read_more);
     padding-top: 25px;
@@ -24,7 +24,7 @@ main .container-fluid {
     border-top: 35px solid var(--color_btn_send_message_hover); 
     border-right: 35px solid transparent;			
     position: relative;
-    top: 45px;
+    top: 35px;
     right: 12px;
   }
 h2 span.sp1-h2 {
@@ -143,16 +143,16 @@ h2 {
     padding-bottom: 8px;
   }
   .btn_opt_1 {
-    color: var( --color_btn_send_message_hover);
+    color: var( --color_btn_text_hover);
   }
   .btn_opt_2 {
-    color: var( --color_btn_send_message_hover);
+    color: var( --color_btn_text_hover);
   }
   .btn_opt_3 {
-    color: var( --color_btn_send_message_hover);
+    color: var( --color_btn_text_hover);
   }
   .btn_opt_4 {
-    color: var( --color_btn_send_message_hover);
+    color: var( --color_btn_text_hover);
   }
   #paper {
     width: 310px;
