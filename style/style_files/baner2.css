@@ -1,3 +1,7 @@
+ * {
+  box-sizing: border-box;
+ }
+
 main .container-fluid {
   background: url(../../images/Bg2.svg);
     height: 291px;
@@ -55,18 +59,18 @@ h2 span.sp2-h2 {
 }
 .box1-main-1 {
 font-size: 48px;
-color: #ffffff;
+color: var( --color_btn_text);
 font-weight: 400;
 font-family: "Roboto-Regular";
 }
-.box2-main {
-  position: relative;
-  background-color: var( --color_btn_order_now);
-  top: 42px;
-  right: -14px;
-  width: 310px;
-  height: 38px;
+.box1-main-2 {
+font-size: 28px;
+line-height: 45px;
+color: var( --color_btn_text);
+font-weight: 400;
+font-family: "Roboto-Regular";
 }
+
 .box2-main::before{
   content: '';
   display: inline-block;
@@ -75,8 +79,8 @@ font-family: "Roboto-Regular";
   border-top: 35px solid var( --color_btn_order_now); 
   border-right: 35px solid transparent;			
   position: relative;
-  top: 25px;
-  right: 12px;
+  top: 41px;
+  right: -1px;
 }
 .box2-main p {
   display: inline-block;
@@ -84,12 +88,15 @@ font-family: "Roboto-Regular";
   text-transform: uppercase;
   font-size: 26px;
   color: var( --color_btn_text);
+  background-color: var( --color_btn_order_now);
   font-weight: 400;
   font-family: "Roboto-Regular";
   position: relative;
-  top: -83px;
-  right: -68px;
-
+  top: -13px;
+  right: -1px;
+  width: 310px;
+  height: 34px;
+  margin: 0;
 }
 .arrow {
     width: 20px;
@@ -107,28 +114,45 @@ h2 {
     font-weight: 700;
     font-family: "Roboto-Bold";
     text-align: left;
-    margin: 0px 0px 0px 0px;
+    margin: 0 auto;
     padding: 5px;
 }
-.main-h2-h2 {
+.btn-main-1{
     display: flex;
-}
-.main_box_btn {
-    display: flex;
-    align-items: center;
-
-}
-
-
-.btn-main{
-    display: flex;
-
     font-family: Roboto-Regular;
     text-decoration: none;
     font-size: 18px;
     color: var(--color_btn_text);
     font-weight: 400;
     margin: 0 auto;
+  }
+  .btn_p_1 {
+    display: inline-block;
+    padding-bottom: 8px;
+  }
+  .btn_p_2 {
+    display: inline-block;
+    padding-bottom: 8px;
+  }
+  .btn_p_3 {
+    display: inline-block;
+    padding-bottom: 8px;
+  }
+  .btn_p_4 {
+    display: inline-block;
+    padding-bottom: 8px;
+  }
+  .btn_opt_1 {
+    color: var( --color_btn_send_message_hover);
+  }
+  .btn_opt_2 {
+    color: var( --color_btn_send_message_hover);
+  }
+  .btn_opt_3 {
+    color: var( --color_btn_send_message_hover);
+  }
+  .btn_opt_4 {
+    color: var( --color_btn_send_message_hover);
   }
   #paper {
     width: 310px;
@@ -147,4 +171,5 @@ h2 {
     width: 310px;
     height: 35px;
   }
+
 
