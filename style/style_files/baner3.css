@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .baner_3 {
-  background: url(../../images/Bg3.svg);
+  background: url(../../images/how_it_works_bg.png);
   position: relative;
   background-repeat: no-repeat;
   height: 861px;
@@ -81,7 +81,7 @@
     filter: drop-shadow( 2px 3.464px 4.5px  rgba(155,182,190,0.75));
     background-color: var( --color_btn_text);
     text-align: center;
-    margin-right: 15px;
+    margin-right: -10px;
     padding: 10px;
   }
   .card-body_4{
@@ -94,7 +94,7 @@
     padding: 10px;
   }
    h4.card-title {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     text-transform: uppercase;
     color: var( --color_h4);
@@ -133,19 +133,19 @@
   }
   a.ar_btn_1 {
     position: relative;
-    top: 137px;
+    top: 160px;
   }
   a.ar_btn_2 {
     position: relative;
-    top: 20px;
-  }
-  a.ar_btn_4 {
-    position: relative;
-    top: 44px;
+    top: 37px;
   }
     a.ar_btn_3 {
       position: relative;
       top: 100px;
+    }
+    a.ar_btn_4 {
+      position: relative;
+      top: 47px;
     }
   .box-card-body_3::before{
     content: '';
@@ -156,6 +156,6 @@
     border-right: 35px solid transparent;			
     position: relative;
     top: 291px;
-    right: 296px;
+    right: 270.5px;
     filter: drop-shadow( 2px 3.464px  rgba(155,182,190,0.75));
   }
