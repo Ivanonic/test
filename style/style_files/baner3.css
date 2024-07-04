@@ -2,11 +2,11 @@
   box-sizing: border-box;
 }
 .baner_3 {
-  background: url(../../images/how_it_works_bg.png);
+  background: url(../../images/Bg3.svg);
   position: relative;
   background-repeat: no-repeat;
   height: 861px;
-  padding: 20px;
+  padding-top: 20px;
 }
 
 .baner_3 .block_h2{

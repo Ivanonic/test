@@ -3,7 +3,8 @@
  }
 
 main .baner_2 {
-    background: url(../../images/Bg1-1.svg);
+    background: url(../../images/main_bg_prise.png);
+    background-repeat: no-repeat;
     height: 291px;
     background-color: var(--color_btn_read_more);
     padding-top: 25px;
