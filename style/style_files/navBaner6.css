@@ -4,7 +4,7 @@
 .form-range {
     width: 1200px;
     height: 1.5px;
-    background-color: #caddea;
+    background-color: var( --color_btn_send_message_hover);
     margin: 0;
     position: relative;
     top: 240px;
@@ -16,7 +16,7 @@
     left: 490px;
     top: 270px;
     font-size: 16px;
-    color: #caddea;
+    color: var( --color_btn_text);
     font-family: "Arial Narrow";
     margin: 0;
 }
@@ -26,9 +26,8 @@ footer {
     padding-bottom: 10px;
     position: relative;
     height: 375px;
-    background-color: #013056;
+    background-color: var( --color_main_2);
 }
-
 footer ul {
     margin: 0;
     padding: 0;
@@ -39,7 +38,7 @@ footer ul {
     top: 260px;
 }
 a {
-    color: #ffffff;
+    color: var( --color_btn_text);
 }
 .ul_footer {
     width: 1200px;
@@ -58,21 +57,18 @@ footer ul li a {
     font-family: Roboto-Regular;
     text-decoration: none;
 }
-
 footer .border_li_foot::after{
     content: '';
     border: 2px solid var(--color_btn_send_message_hover);
     border-radius: 3px;
     position: relative;
   }
-
 footer ul li a:hover {
     background-color: var(color_btn_send_message_hover);
     color: var(color_btn_text_hover);
     box-shadow: -10px 0px 0px var(--color_btn_send_message_hover),
     10px 0px 0px var(--color_btn_send_message_hover);
 }
-
 .artical-footer {
     display: flex;
     justify-content: space-evenly;
@@ -85,7 +81,7 @@ footer ul li a:hover {
     width: 200px;
     height: 193px;
     font-size: 15px;
-    color: #caddea;
+    color: var( --color_btn_send_message_hover);
     font-family: "Arial Narrow";
     text-align: left;
     padding: 0;
@@ -94,7 +90,7 @@ footer ul li a:hover {
     width: 170px;
     height: 193px;
     font-size: 15px;
-    color: #caddea;
+    color: var( --color_btn_send_message_hover);
     font-family: "Arial Narrow";
     text-align: left;
     padding: 0;  
@@ -103,7 +99,7 @@ footer ul li a:hover {
     width: 190px;
     height: 193px;
     font-size: 15px;
-    color: #caddea;
+    color: var( --color_btn_send_message_hover);
     font-family: "Arial Narrow";
     text-align: left;
     padding: 0;
@@ -112,7 +108,7 @@ footer ul li a:hover {
     width: 200px;
     height: 193px;
     font-size: 15px;
-    color: #caddea;
+    color: var( --color_btn_send_message_hover);
     font-family: "Arial Narrow";
     text-align: left;
     padding: 0;
@@ -121,7 +117,7 @@ footer ul li a:hover {
     width: 170px;
     height: 193px;
     font-size: 15px;
-    color: #caddea;
+    color: var( --color_btn_send_message_hover);
     font-family: "Arial Narrow";
     text-align: left;
     padding: 0;
@@ -130,7 +126,7 @@ footer ul li a:hover {
     width: 200px;
     height: 193px;
     font-size: 15px;
-    color: #caddea;
+    color: var( --color_btn_send_message_hover);
     font-family: "Arial Narrow";
     text-align: left;
     padding: 0;
