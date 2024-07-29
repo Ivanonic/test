@@ -1,0 +1,14 @@
+.card-body_1:hover{
+    /* content: ''; */
+    /* display: inline-block; */
+    /* width: 0;
+    height: 0; */
+    border-top: 35px solid var(--color_btn_text); 
+    border-right: 35px solid transparent;		
+    opacity: 0;	
+    /* position: relative;
+    top: 291px;
+    right: 290px; */
+    filter: drop-shadow( 2px 3.464px  rgba(155,182,190,0.75));
+    z-index: 1;
+  }

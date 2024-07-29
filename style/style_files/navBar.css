@@ -21,7 +21,7 @@ nav ul li a {
     font-size: 20px;
     letter-spacing: 1px;
     line-height: 42px;
-    color: var(color_btn_text);
+    color: var(--color_btn_text);
     font-weight: 400;
     font-family: Roboto-Regular;
     text-decoration: none;
@@ -36,8 +36,8 @@ nav .border_li::after{
   }
 
 nav ul li a:hover {
-    background-color: var(color_btn_send_message_hover);
-    color: var(color_btn_text_hover);
+    background-color: var(--color_btn_send_message_hover);
+    color: var(--color_btn_text_hover);
     box-shadow: -16px 0px 0px var(--color_btn_send_message_hover),
     16px 0px 0px var(--color_btn_send_message_hover);
 }
