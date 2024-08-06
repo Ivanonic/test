@@ -11,7 +11,7 @@ body {
     --color_h2: #1b7fd0;
     --color_h3: #000000;
     --color_h4: #1b7fd0;
-    --color_p_text: #000;
+    --color_p_text: #000000;
 
     --color_btn_read_more: #075da2;
     --color_btn_read_more_hover: #caddea;
@@ -70,7 +70,7 @@ h4 {
 }
 
 p.text {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     color: var(--color_p_text);
 }

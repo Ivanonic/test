@@ -10,6 +10,22 @@
   background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 1200px) {
+
+  .baner1 .bg_img{
+    background-image: none;
+    
+  }
+
+  .baner1 {
+    background-image: url(../../images/main_bg_img_heder.png);
+    block-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+  }
+  
+}
+
 .baner1 a img{
   margin: 25px 0;
   cursor: grab;

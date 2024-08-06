@@ -28,6 +28,7 @@ header{
   header .login_and_chat{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     margin-bottom: 5px;
   }
   
@@ -42,7 +43,7 @@ header{
   }
   
   header .login:hover, header .live_chat:hover{
-    color: var(--color_btn_text_hover)
+    color: var(--color_btn_text_hover);
   }
 
   
@@ -55,6 +56,7 @@ header{
     height: 30px;
     position: relative;
     top: 5px;
+    margin-left: 7px;
   }
   header .live_chat::after{
     content: '';
@@ -65,6 +67,7 @@ header{
     height: 30px;
     position: relative;
     top: 5px;
+    margin-left: 7px;
   }
   
   
