@@ -1,76 +1,109 @@
-.baner{
-    background-color: #eaeff5;
+.baner1{
+  background-color: #eaeff5;
+}
+
+
+.baner1 .bg_img{
+  background-image: url(../../images/main_bg_img_heder.png);
+  block-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .baner1 .bg_img{
+    background-image: none;
+    
   }
-  
-  
-  .baner .bg_img{
+
+  .baner1 {
     background-image: url(../../images/main_bg_img_heder.png);
     block-size: cover;
     background-position: center right;
     background-repeat: no-repeat;
   }
   
-  .baner a img{
-    margin: 25px 0;
-  }
-  
-  .baner .block_h1{
-    display: inline-block;
-    text-align: center;
-    width: 600px;
-    height: 65px;
-    filter: drop-shadow(2px 3.464px 3.5px rgba(155,182,190,0.75));
-    background-color: var(--color_btn_send_message_hover);
-  }
-  
-  .baner .block_h1::before{
-    content: '';
-    display: inline-block;
-    width: 0;
-      height: 0;
-      border-top: 35px solid var(--color_btn_send_message_hover); 
-      border-right: 35px solid transparent;			
-    position: relative;
-    top: 65px;
-    right: 282.5px;
-  }
-  .baner .block_h1 h1{
-    margin: 0;
-    position: relative;
-    bottom: 24px;
-  }
-  
-  .baner h3{
-    margin: 25px 0px 0px 55px;
-  }
-  
-  .baner ul{
-    padding-left: 55px;
-  }
-  
-  .baner ul li {
-    font-size: 18px;
-    line-height: 33px;
-    color: var(--color_p_text);
-    font-family: "Arial Narrow";
-    font-weight: 500;
-  }
-  
-  .baner ul li::marker{
-    color: var(--color_main_1);
-    font-size: 30px;
-  }
-  
-  .baner .btn a{
-    font-family: Roboto_Regular;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 42px;
-    color: var(--color_btn_read_more);
-    display: inline-block;
-    border: 2px solid var(--color_main_1);
-    font-weight: 400;
-    text-align: center;
-    width: 230px;
-    margin: 10px;
-  }
+}
+
+.baner1 a img{
+  margin: 25px 0;
+  cursor: grab;
+}
+
+.baner1 .block_h1{
+  display: inline-block;
+  text-align: center;
+  width: 600px;
+  height: 65px;
+  filter: drop-shadow(2px 3.464px 3.5px rgba(155,182,190,0.75));
+  background-color: var(--color_btn_send_message_hover);
+}
+
+.baner1 .block_h1:hover {
+  text-shadow: 1px 1px 3px rgba(155,182,190,0.75);
+  cursor: pointer;
+}
+
+.baner1 .block_h1::before{
+  content: '';
+  display: inline-block;
+  width: 0;
+	height: 0;
+	border-top: 35px solid var(--color_btn_send_message_hover); 
+	border-right: 35px solid transparent;		
+  position: relative;
+  top: 65px;
+  right: 282.5px;
+}
+.baner1 .block_h1 h1{
+  margin: 0;
+  position: relative;
+  bottom: 24px;
+}
+
+.baner1 h3{
+  margin: 25px 0px 0px 55px;
+  cursor: grab;
+}
+
+.baner1 ul{
+  padding-left: 55px;
+}
+
+.baner1 li {
+  cursor: pointer;
+}
+
+.baner1 ul li {
+  font-size: 18px;
+  line-height: 33px;
+  color: var(--color_p_text);
+  font-family: "Arial Narrow";
+  font-weight: 500;
+}
+
+.baner1 ul li::marker{
+  color: var(--color_main_1);
+  font-size: 30px;
+}
+
+.baner1 .btn a{
+  font-family: Roboto_Regular;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 42px;
+  color: var(--color_btn_read_more);
+  display: inline-block;
+  border: 2px solid var(--color_main_1);
+  font-weight: 400;
+  text-align: center;
+  width: 230px;
+  margin: 10px;
+}
+
+.baner1 .btn a:hover {
+  box-shadow: 2px 2px 4px var(--color_main_1);
+  text-shadow: 1px 1px 2px var(--color_main_1);
+}
+

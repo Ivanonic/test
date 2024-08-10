@@ -11,7 +11,7 @@ body {
     --color_h2: #1b7fd0;
     --color_h3: #000000;
     --color_h4: #1b7fd0;
-    --color_p_text: #000;
+    --color_p_text: #000000;
 
     --color_btn_read_more: #075da2;
     --color_btn_read_more_hover: #caddea;
@@ -26,20 +26,20 @@ body {
     --color_btn_text_hover: #1b7fd0;
 }
 @font-face {
-    font-family: Roboto_Bold;
+    font-family: Roboto-Bold;
     src: url(../fonts/Roboto-Bold.ttf);
 }
 @font-face {
-    font-family: Roboto_Medium;
+    font-family: Roboto-Medium;
     src: url(../fonts/Roboto-Medium.ttf);
 }
 @font-face {
-    font-family: Roboto_Regular;
+    font-family: Roboto-Regular;
     src: url(../fonts/Roboto-Regular.ttf);
 }
 
 h1 {
-    font-family: Roboto_Bold;
+    font-family: Roboto-Bold;
     font-size: 32px;
     color: var(--color_h1);
     font-weight: bold;
@@ -47,7 +47,7 @@ h1 {
 
 }
 h2 {
-    font-family: Roboto_Bold;
+    font-family: Roboto-Bold;
     font-size: 28px;
     color: var(--color_h2);
     font-weight: bold;
@@ -55,14 +55,14 @@ h2 {
 
 }
 h3 {
-    font-family: Roboto_Medium;
+    font-family: Roboto-Medium;
     font-size: 22px;
     color: var(--color_h3);
     text-transform: uppercase;
 
 }
 h4 {
-    font-family: Roboto_Medium;
+    font-family: Roboto-Medium;
     font-size: 18px;
     color: var(--color_h4);
     text-transform: uppercase;
@@ -70,7 +70,7 @@ h4 {
 }
 
 p.text {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     color: var(--color_p_text);
 }

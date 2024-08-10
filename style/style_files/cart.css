@@ -1,0 +1,32 @@
+.baner_cart {
+    height: 88px;
+    background-color: #caddea;
+}
+.block-cart {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    padding: 20px 0px 0px 150px;
+}
+.baner_cart_img {
+    display: flex;
+    width: 80px;
+    margin-right: 10px;
+}
+.baner_cart_img_marg {
+    display: flex;
+    width: 80px;
+    margin-right: 300px;
+}
+.cart_facebook {
+    width: 18px;
+    margin: 0px 53px 0px 0px;
+}
+.cart_twiter {
+    width: 40px;
+    margin: 0px 53px 0px 0px;
+}
+.cart_pinterest {
+    width: 30px;
+}

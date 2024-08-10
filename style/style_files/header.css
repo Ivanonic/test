@@ -1,51 +1,53 @@
-header {
+header{
     background-color: var(--color_main_2);
     background-image: url(../../images/Bg1.svg);
     height: 57px;
     display: flex;
     align-items: center;
-}
-
-.phone {
+  }
+  
+  .phone{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
-
-header span, header a {
+  }
+  
+  header span, header a{
     font-size: 20px;
     color: #517898;
     font-weight: 250;
-    font-family: Roboto-Regular;
-}
-
-header a {
+    font-family: Roboto_Regular;
+  }
+  
+  header a{
     color: #caddea;
     text-decoration: none;
     margin-right: 10px;
-}
-
-.header .login_and_chat {
+  }
+  
+  header .login_and_chat{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     margin-bottom: 5px;
-}
-
-header .login, .live_chat {
+  }
+  
+  header .login, .live_chat{
     font-size: 22px;
     letter-spacing: 1px;
     line-height: 24px;
     text-transform: uppercase;
     color: var(--color_btn_text);
     font-weight: 400;
-    font-family: Roboto-Regular;
-}
-
-header .login:hover, header .live_chat:hover {
+    font-family: Roboto_Regular;
+  }
+  
+  header .login:hover, header .live_chat:hover{
     color: var(--color_btn_text_hover);
-}
+  }
 
-header .login::after{
+  
+  header .login::after{
     content: '';
     display: inline-block;
     background-image: url(../../images/Login.svg);
@@ -54,6 +56,7 @@ header .login::after{
     height: 30px;
     position: relative;
     top: 5px;
+    margin-left: 7px;
   }
   header .live_chat::after{
     content: '';
@@ -64,6 +67,7 @@ header .login::after{
     height: 30px;
     position: relative;
     top: 5px;
+    margin-left: 7px;
   }
   
   
